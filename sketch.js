@@ -97,7 +97,7 @@ if(returnData==""){texts+="You should feel the need to move \n \n"}
 if(turns>20){texts+="You can start to feel a bit scared, you think something might be following you \n \n"}
 if(turns>25){texts+="You start to hear a creaking noise, it sounds very scary \n \n"
 }
-if(turns>30){texts+="You can hear a monster or something walking towards you think it might be close to you, its maybe "+(35-turns)+" or "+(36-turns)+" steps away \n \n"}
+if(turns>30&&turns<33){texts+="You can hear a monster or something walking towards you think it might be close to you, its maybe "+(35-turns)+" or "+(36-turns)+" steps away \n \n"}
 if(turns>34){window.alert("The monster got to you, tearing you apart, your adventure is over, you loose");
 returnData="end";}
 return texts;
