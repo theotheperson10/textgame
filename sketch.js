@@ -5,17 +5,7 @@ var mapFound=false;
 var winw=400;
 var winh=400;
 var turns=0;
-var mapData=[
-1,1,1,1,1,1,1,1,
-1,0,0,0,1,1,1,1,
-1,0,1,0,1,0,3,1,
-1,0,1,0,0,0,0,1,
-1,0,1,1,0,1,1,1,
-1,0,0,1,0,2,1,1,
-1,0,1,1,1,1,1,1,
-1,0,1,0,0,0,1,1,
-1,0,0,0,1,0,4,1,
-1,1,1,1,1,1,1,1];
+var mapData=[3,4];
 function setup() {
   createCanvas(400, 400);
   window.alert("Welcome to the maze, type what you want to do and you'll do it, have fun"+str(" :)"))
